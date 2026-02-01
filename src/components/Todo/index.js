@@ -2,11 +2,11 @@ import Header from "../Header";
 import "./index.css";
 import React, { useEffect, useState } from "react";
 
-const tabsList = [
-  { tabId: "all", displayText: "All" },
-  { tabId: "active", displayText: "Active" },
-  { tabId: "completed", displayText: "Completed" },
-];
+// const tabsList = [
+//   { tabId: "all", displayText: "All" },
+//   { tabId: "active", displayText: "Active" },
+//   { tabId: "completed", displayText: "Completed" },
+// ];
 
 const Todo = (props) => {
   const { todosList } = props;
